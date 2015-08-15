@@ -11,7 +11,8 @@ def homepage():
 	
 @app.route('/about')
 def aboutpage():
-    return render_template("index.html",title = "Information about this Site" , paragraph = "8554435484851321321321 blah blah")
+	pageType = 'about'
+    return render_template("index.html",pageType = pageType, title = "Information about this Site" , paragraph = "8554435484851321321321 blah blah")
 
 
 @app.route('/contact')

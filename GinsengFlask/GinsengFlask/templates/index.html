@@ -26,9 +26,9 @@
 			  <ul class="nav navbar-nav">
 				<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
 				<li><a href="#">Link</a></li>
-				<li class="dropdown">
-				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-				  <ul class="dropdown-menu">
+				<li class="dropdown" >
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" id = "dropdownmenu1" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+				  <ul class="dropdown-menu" aria-labelledby = "dropdownmenu">
 					<li><a href="#">Action</a></li>
 					<li><a href="#">Another action</a></li>
 					<li><a href="#">Something else here</a></li>
@@ -79,8 +79,13 @@
 			{% for p in paragraph %}
 			<p>{{  p  }}</p>
 			{% endfor %}
-	
-	
+			
+			{% if pageType = 'about' %}
+			<p> "This is the about page" </p>
+			{% else %}
+			<p> "Page is NOT The ABOUT PAGE"</p>
+			{%  endif %}
+
 	 </body>
 
 </body>
