@@ -18,12 +18,12 @@ def aboutpage():
 
 @app.route('/contact')
 def contactpage():
-	return "This is Contact Page."
+	return render_template("contactpage.html")
 
 
 @app.route('/ginseng')
 def ginsengpage():
-	return "Fuck yeaaaaa!"
+	return render_template("productpage.html")
 
 
 
