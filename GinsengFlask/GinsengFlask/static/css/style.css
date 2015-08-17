@@ -16,3 +16,14 @@
 .padding1 {
 	padding-top: 60px;
 }
+
+.box-height{
+	height: 80px;	
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+	width: 500px;
+	height: 400px;
+	margin: auto;}
+}
