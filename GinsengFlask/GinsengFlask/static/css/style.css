@@ -1,3 +1,4 @@
+/*Nav Bar CSS*/
 .brand-logo {
 	width: 60px;
 	height: 40px;
@@ -6,6 +7,9 @@
 	padding: 5px 5px;
 }
 
+.navbar{
+	background-color: #FFFFFF;
+}
 .body{
 	padding-top: 60px; 
 }
@@ -17,6 +21,8 @@
 	padding-top: 60px;
 }
 
+
+/*HomePage*/
 .box-height{
 	height: 80px;	
 }
@@ -26,4 +32,19 @@
 	width: 500px;
 	height: 400px;
 	margin: auto;}
+}
+
+/*Product Page*/
+
+
+.title-padding{
+	padding-left: 50px;
+}
+.prod-size{
+	width: 120px;
+	height: 120px;
+}
+
+.med-pad{
+	padding-left: 126px;
 }

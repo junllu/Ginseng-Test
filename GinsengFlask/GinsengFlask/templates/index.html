@@ -2,22 +2,20 @@
 <html lang= "en">
 
 <head>
-	<link href = "/static/bootstrap.min.css" rel ="stylesheet", media ="screen">
 	<title> YongTai Ginseng </title>
+	<link href = "/static/bootstrap.min.css" rel ="stylesheet", media ="screen">
 	<!-- Carousel -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<!-- Personalized Style Sheet -->
-	<link rel="stylesheet" type="text/css" href="/static/css/style.css">	
-	
-
+	<link rel="stylesheet" type="text/css" href="/static/css/style.css">
 </head>
 
 <body class ="body">
 	<!-- Header -->
 	<div class="page-header" >
-		<center><h1>YongTai Ginseng <small>Recipe For Life</small></h1></center>
+		<center><h1> 永泰篸茸 <small>Recipe For Life</small></h1></center>
 	</div>
 	
 	<!-- Carousel -->
@@ -146,6 +144,8 @@
 	</nav>
 
 	<!-- Header Button -->
+	<br>
+	<br>
 	<header>
 		<div class="jumbotron">
 			<div class ="container">
@@ -164,18 +164,6 @@
 			</div>
 		</div>
 	</header>
-
-
-	<h2>{{   title   }}</h2>
-	{% for p in paragraph %}
-	<p>{{  p  }}</p>
-	{% endfor %}
-
-	{% if pageType == 'about' %}
-	<p> "This is the about page" </p>
-	{% else %}
-	<p> "Page is NOT The ABOUT PAGE"</p>
-	{%  endif %}
 </body>
 
 <script type="text/javascript" src="/static/jquery-1.11.3.min.js"></script>
