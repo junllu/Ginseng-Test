@@ -8,10 +8,11 @@
 }
 
 .navbar{
-	background-color: #FFFFFF;
+	background-color: rgb(244, 245, 238);
 }
 .body{
 	padding-top: 60px; 
+	background-color: rgb(244, 245, 238);
 }
 @media screen and (max-width 768px){
 	body{padding-top: 0px;}
@@ -29,8 +30,8 @@
 
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-	width: 500px;
-	height: 400px;
+	width: 400px;
+	height: 200px;
 	margin: auto;}
 }
 
@@ -48,3 +49,19 @@
 .med-pad{
 	padding-left: 126px;
 }
+
+.background-image {
+  background-image: url('/static/img/background/bubbles.png');
+  background-size: 100% 100%;
+  display: block;
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+  height: 800px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  z-index: 0;
+}
+ .z-ind{
+ 	z-index: 999;
+ }
