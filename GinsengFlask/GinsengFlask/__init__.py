@@ -25,6 +25,9 @@ def contactpage():
 def ginsengpage():
 	return render_template("productpage.html")
 
+@app.route('/testpage')
+def testpage():
+	return render_template("/Trials/fullpagescroll.html")
 
 
 if __name__ == "__main__":
